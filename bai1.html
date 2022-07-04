@@ -2,9 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>in ra dãy fibonaci</title>
 </head>
 <body>
+<script>
+    let f1=1,f2=1;
+    document.writeln(f1);
+    document.writeln(f2);
+    let a=+prompt('Nhập số lượng muốn in');
+    for (let i = 0; i <(a-2) ; i++) {
+        let f3=f1+f2
+        f1=f2;
+        f2=f3;
+        document.writeln(f3)
+    }
+</script>
 
 
 </body>
